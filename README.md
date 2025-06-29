@@ -1,4 +1,4 @@
-# 📚 GenAI Document Chatbot
+# 📚 ContextChat
 
 An AI-powered chatbot that lets you upload PDFs and ask questions about their content — all **offline**, using local language models like TinyLlama via Ollama, powered by LangChain and FAISS.
 

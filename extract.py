@@ -50,7 +50,7 @@ class PDFLoader:
         return extract_text_per_page(self.path)
 
 if __name__ == "__main__":
-    pdf_path = ["COSMOS.pdf", "s12559-022-10038-y.pdf"]  # Replace with your PDF file path
+    pdf_path = ["COSMOS.pdf", "s12559-022-10038-y.pdf"]  
     loader = PDFLoader(pdf_path)    
     text  =loader.get_text()
     print("Extracted Text:\n", text[:1000])
